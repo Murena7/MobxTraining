@@ -4,9 +4,7 @@ import { map } from 'rxjs/operators';
 import { Car } from './car.model';
 import { Observable } from 'rxjs';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable()
 export class CarsService {
 
   static BASE_URL = 'http://localhost:3000/';

@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { CarsFormComponent } from './cars-form/cars-form.component';
 import { CarComponent } from './car/car.component';
 import { CarsStore } from './stores/cars.store';
+import { CarsService } from './cars.service';
 
 @NgModule({
   declarations: [AppComponent, CarsFormComponent, CarComponent],
@@ -18,7 +19,7 @@ import { CarsStore } from './stores/cars.store';
     HttpModule,
     MobxAngularModule,
   ],
-  providers: [CarsStore],
+  providers: [CarsStore, CarsService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -1,0 +1,39 @@
+{
+  "cars": [
+    {
+      "name": "X5",
+      "date": "12.09.2018",
+      "model": "BMW",
+      "isSold": false,
+      "id": 1
+    },
+    {
+      "name": "MyCar",
+      "date": "12.09.2018",
+      "model": "BestCar",
+      "isSold": true,
+      "id": 4
+    },
+    {
+      "name": "MyCar",
+      "date": "12.09.2018",
+      "model": "BestCar2",
+      "isSold": false,
+      "id": 5
+    },
+    {
+      "name": "X60",
+      "date": "12.09.2018",
+      "model": "Volvo",
+      "isSold": false,
+      "id": 6
+    },
+    {
+      "name": "V8",
+      "date": "12.09.2018",
+      "model": "Mercedes",
+      "isSold": false,
+      "id": 7
+    }
+  ]
+}
